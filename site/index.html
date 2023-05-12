@@ -449,67 +449,11 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div data-app-id="6ddba2de-3920-4ee4-8f6b-0a0c8c2c95c7" data-host="https://cusdis.com" data-page-id="" data-page-title="" data-page-url="" id="cusdis_thread"></div>
 <script async="" defer="" src="https://cusdis.com/js/cusdis.es.js"></script>
 <!--- generate the script using https://giscus.app/ and replace the text above ! --->
-<script>
-        var giscus = document.querySelector("script[src*=giscus]")
-
-        /* Set palette on initial load */
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-            var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
-            giscus.setAttribute("data-theme", theme)
-        }
-
-        /* Register event handlers after documented loaded */
-        document.addEventListener("DOMContentLoaded", function () {
-            var ref = document.querySelector("[data-md-component=palette]")
-            ref.addEventListener("change", function () {
-                var palette = __md_get("__palette")
-                if (palette && typeof palette.color === "object") {
-                    var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
-
-                    /* Instruct Giscus to change theme */
-                    var frame = document.querySelector(".giscus-frame")
-                    frame.contentWindow.postMessage(
-                        { giscus: { setConfig: { theme } } },
-                        "https://giscus.app"
-                    )
-                }
-            })
-        })
-    </script>
 <!-- Giscus -->
 <h2 id="__comments">Comments</h2>
 <div data-app-id="6ddba2de-3920-4ee4-8f6b-0a0c8c2c95c7" data-host="https://cusdis.com" data-page-id="" data-page-title="" data-page-url="" id="cusdis_thread"></div>
 <script async="" defer="" src="https://cusdis.com/js/cusdis.es.js"></script>
 <!--- generate the script using https://giscus.app/ and replace the text above ! --->
-<script>
-        var giscus = document.querySelector("script[src*=giscus]")
-
-        /* Set palette on initial load */
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-            var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
-            giscus.setAttribute("data-theme", theme)
-        }
-
-        /* Register event handlers after documented loaded */
-        document.addEventListener("DOMContentLoaded", function () {
-            var ref = document.querySelector("[data-md-component=palette]")
-            ref.addEventListener("change", function () {
-                var palette = __md_get("__palette")
-                if (palette && typeof palette.color === "object") {
-                    var theme = palette.color.scheme === "slate" ? "dark_dimmed" : "light"
-
-                    /* Instruct Giscus to change theme */
-                    var frame = document.querySelector(".giscus-frame")
-                    frame.contentWindow.postMessage(
-                        { giscus: { setConfig: { theme } } },
-                        "https://giscus.app"
-                    )
-                }
-            })
-        })
-    </script>
 <script> 
     try {
       const index = document.querySelector('h1').innerHTML;

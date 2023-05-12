@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 
 # Welcome to Astro's Garden! 🌱
 

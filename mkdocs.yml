@@ -4,7 +4,7 @@ site_url: https://corvusdeinanis.github.io/publisher-template/ # Change this to 
 
 theme:
     name: 'material'
-    logo: assets/meta/logo.png
+    logo: assets/meta/logo.svg
     favicon: assets/meta/favicon.png
     custom_dir: overrides
     font:

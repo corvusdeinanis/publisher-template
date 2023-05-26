@@ -1,7 +1,7 @@
 ---
 title: "Life Span Development introduction"
 tags: ['psychology','lifespan','study']
-date: ['2022-11-30']
+date: 2022-11-30
 ---
 
 # Life Span Development

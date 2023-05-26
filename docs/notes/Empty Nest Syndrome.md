@@ -1,6 +1,6 @@
 ---
 title: "Empty Nest Syndrome"
-date: 202303291059
+date: 2023-03-29
 tags: ['psychology']
 ---
 
